@@ -9,8 +9,8 @@
 </head>
 
 <body>
-    <header class="bg-white">
-        <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 sticky">
             <div class="flex h-16 items-center justify-between">
                 <div class="md:flex md:items-center">
                     <a class=" text-teal-600" href="#">
@@ -76,28 +76,28 @@
     <section class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div class="carousel w-full">
             <div id="slide1" class="carousel-item relative w-full">
-                <img src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp" class="w-full" />
+                <img src="./img/banner-0.jpg" class="w-full" />
                 <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide4" class="btn btn-circle">❮</a>
                     <a href="#slide2" class="btn btn-circle">❯</a>
                 </div>
             </div>
             <div id="slide2" class="carousel-item relative w-full">
-                <img src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp" class="w-full" />
+                <img src="./img/banner-1.jpg" class="w-full" />
                 <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide1" class="btn btn-circle">❮</a>
                     <a href="#slide3" class="btn btn-circle">❯</a>
                 </div>
             </div>
             <div id="slide3" class="carousel-item relative w-full">
-                <img src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp" class="w-full" />
+                <img src="./img/banner-2.jpg" class="w-full" />
                 <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide2" class="btn btn-circle">❮</a>
                     <a href="#slide4" class="btn btn-circle">❯</a>
                 </div>
             </div>
             <div id="slide4" class="carousel-item relative w-full">
-                <img src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp" class="w-full" />
+                <img src="./img/banner-3.jpg" class="w-full" />
                 <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide3" class="btn btn-circle">❮</a>
                     <a href="#slide1" class="btn btn-circle">❯</a>
@@ -121,33 +121,20 @@
                 <div class="flex items-start gap-4 p-4 sm:p-6 lg:p-8">
                     <a href="#" class="block shrink-0">
                         <img alt=""
-                            src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                            src="https://www.themealdb.com/images/media/meals/sxrpws1511555907.jpg"
                             class="size-14 rounded-lg object-cover" />
                     </a>
 
                     <div>
                         <h3 class="font-medium sm:text-lg">
-                            <a href="#" class="hover:underline"> Question about Livewire Rendering and Alpine JS </a>
+                            <a href="#" class="hover:underline">Lamb and Potato pie </a>
                         </h3>
 
                         <p class="line-clamp-2 text-sm text-gray-700">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, accusantium temporibus
-                            iure delectus ut totam natus nesciunt ex? Ducimus, enim.
+                            Simple and delicious, with a crispy crust, fresh tomatoes, and melted mozzarella. The basil adds a lovely touch.
                         </p>
 
                         <div class="mt-2 sm:flex sm:items-center sm:gap-2">
-                            <div class="flex items-center gap-1 text-gray-500">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="size-4" fill="none" viewBox="0 0 24 24"
-                                    stroke="currentColor" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
-                                </svg>
-
-                                <p class="text-xs">14 comments</p>
-                            </div>
-
-                            <span class="hidden sm:block" aria-hidden="true">&middot;</span>
-
                             <p class="hidden sm:block sm:text-xs sm:text-gray-500">
                                 Posted by
                                 <a href="#" class="font-medium underline hover:text-gray-700"> John </a>
@@ -165,7 +152,7 @@
                                 d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                         </svg>
 
-                        <span class="text-[10px] font-medium sm:text-xs">Solved!</span>
+                        <span class="text-[10px] font-medium sm:text-xs">Varified!</span>
                     </strong>
                 </div>
             </article>
@@ -173,36 +160,23 @@
                 <div class="flex items-start gap-4 p-4 sm:p-6 lg:p-8">
                     <a href="#" class="block shrink-0">
                         <img alt=""
-                            src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                            src="https://www.themealdb.com/images/media/meals/sqpqtp1515365614.jpg"
                             class="size-14 rounded-lg object-cover" />
                     </a>
 
                     <div>
                         <h3 class="font-medium sm:text-lg">
-                            <a href="#" class="hover:underline"> Question about Livewire Rendering and Alpine JS </a>
+                            <a href="#" class="hover:underline">Red Peas Soup</a>
                         </h3>
 
                         <p class="line-clamp-2 text-sm text-gray-700">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, accusantium temporibus
-                            iure delectus ut totam natus nesciunt ex? Ducimus, enim.
+                            Rich and creamy with crisp pancetta. A classic dish, though it could use a bit more seasoning.
                         </p>
 
                         <div class="mt-2 sm:flex sm:items-center sm:gap-2">
-                            <div class="flex items-center gap-1 text-gray-500">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="size-4" fill="none" viewBox="0 0 24 24"
-                                    stroke="currentColor" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
-                                </svg>
-
-                                <p class="text-xs">14 comments</p>
-                            </div>
-
-                            <span class="hidden sm:block" aria-hidden="true">&middot;</span>
-
                             <p class="hidden sm:block sm:text-xs sm:text-gray-500">
                                 Posted by
-                                <a href="#" class="font-medium underline hover:text-gray-700"> John </a>
+                                <a href="#" class="font-medium underline hover:text-gray-700"> Noman </a>
                             </p>
                         </div>
                     </div>
@@ -217,7 +191,7 @@
                                 d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                         </svg>
 
-                        <span class="text-[10px] font-medium sm:text-xs">Solved!</span>
+                        <span class="text-[10px] font-medium sm:text-xs">Varified!</span>
                     </strong>
                 </div>
             </article>
@@ -225,36 +199,23 @@
                 <div class="flex items-start gap-4 p-4 sm:p-6 lg:p-8">
                     <a href="#" class="block shrink-0">
                         <img alt=""
-                            src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                            src="https://www.themealdb.com/images/media/meals/1529446352.jpg"
                             class="size-14 rounded-lg object-cover" />
                     </a>
 
                     <div>
                         <h3 class="font-medium sm:text-lg">
-                            <a href="#" class="hover:underline"> Question about Livewire Rendering and Alpine JS </a>
+                            <a href="#" class="hover:underline">Chicken Congee</a>
                         </h3>
 
                         <p class="line-clamp-2 text-sm text-gray-700">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, accusantium temporibus
-                            iure delectus ut totam natus nesciunt ex? Ducimus, enim.
+                            Tender chicken in a flavorful, creamy sauce. Perfectly spiced and pairs well with rice and naan.
                         </p>
 
                         <div class="mt-2 sm:flex sm:items-center sm:gap-2">
-                            <div class="flex items-center gap-1 text-gray-500">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="size-4" fill="none" viewBox="0 0 24 24"
-                                    stroke="currentColor" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
-                                </svg>
-
-                                <p class="text-xs">14 comments</p>
-                            </div>
-
-                            <span class="hidden sm:block" aria-hidden="true">&middot;</span>
-
                             <p class="hidden sm:block sm:text-xs sm:text-gray-500">
                                 Posted by
-                                <a href="#" class="font-medium underline hover:text-gray-700"> John </a>
+                                <a href="#" class="font-medium underline hover:text-gray-700"> Istiak </a>
                             </p>
                         </div>
                     </div>
@@ -269,7 +230,7 @@
                                 d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                         </svg>
 
-                        <span class="text-[10px] font-medium sm:text-xs">Solved!</span>
+                        <span class="text-[10px] font-medium sm:text-xs">Varified!</span>
                     </strong>
                 </div>
             </article>
@@ -277,36 +238,23 @@
                 <div class="flex items-start gap-4 p-4 sm:p-6 lg:p-8">
                     <a href="#" class="block shrink-0">
                         <img alt=""
-                            src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                            src="https://www.themealdb.com/images/media/meals/1529443236.jpg"
                             class="size-14 rounded-lg object-cover" />
                     </a>
 
                     <div>
                         <h3 class="font-medium sm:text-lg">
-                            <a href="#" class="hover:underline"> Question about Livewire Rendering and Alpine JS </a>
+                            <a href="#" class="hover:underline"> Szechuan Beef </a>
                         </h3>
 
                         <p class="line-clamp-2 text-sm text-gray-700">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, accusantium temporibus
-                            iure delectus ut totam natus nesciunt ex? Ducimus, enim.
+                            Hearty and comforting with tender beef and creamy sauce. Could use a touch more seasoning.
                         </p>
 
                         <div class="mt-2 sm:flex sm:items-center sm:gap-2">
-                            <div class="flex items-center gap-1 text-gray-500">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="size-4" fill="none" viewBox="0 0 24 24"
-                                    stroke="currentColor" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
-                                </svg>
-
-                                <p class="text-xs">14 comments</p>
-                            </div>
-
-                            <span class="hidden sm:block" aria-hidden="true">&middot;</span>
-
                             <p class="hidden sm:block sm:text-xs sm:text-gray-500">
                                 Posted by
-                                <a href="#" class="font-medium underline hover:text-gray-700"> John </a>
+                                <a href="#" class="font-medium underline hover:text-gray-700"> Liza </a>
                             </p>
                         </div>
                     </div>
@@ -321,7 +269,7 @@
                                 d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                         </svg>
 
-                        <span class="text-[10px] font-medium sm:text-xs">Solved!</span>
+                        <span class="text-[10px] font-medium sm:text-xs">Varified!</span>
                     </strong>
                 </div>
             </article>
@@ -333,11 +281,11 @@
         <div class="font-bold text-2xl mb-2">Frequently Asked Questions</div>
         <hr />
         <div class="space-y-4 mt-4">
-            <details class="group border-s-4 border-green-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
-                open>
+            <details
+                class="group border-s-4 border-green-500 bg-gray-50 p-1 [&_summary::-webkit-details-marker]:hidden">
                 <summary class="flex cursor-pointer items-center justify-between gap-1.5">
                     <h2 class="text-lg font-medium text-gray-900">
-                        Lorem ipsum dolor sit amet consectetur adipisicing?
+                        What are your restaurant's operating hours?
                     </h2>
 
                     <span class="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
@@ -352,17 +300,14 @@
                 </summary>
 
                 <p class="mt-4 leading-relaxed text-gray-700">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias culpa in,
-                    recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis explicabo
-                    consequuntur distinctio corporis earum similique!
+                    Our restaurant is open every day from 11:00 AM to 10:00 PM. However, hours may vary on holidays, so please check our website or give us a call for updates.
                 </p>
             </details>
 
-            <details
-                class="group border-s-4 border-green-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+            <details class="group border-s-4 border-green-500 bg-gray-50 p-1 [&_summary::-webkit-details-marker]:hidden">
                 <summary class="flex cursor-pointer items-center justify-between gap-1.5">
                     <h2 class="text-lg font-medium text-gray-900">
-                        Lorem ipsum dolor sit amet consectetur adipisicing?
+                        Do you offer vegetarian or vegan options?
                     </h2>
 
                     <span class="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
@@ -377,9 +322,73 @@
                 </summary>
 
                 <p class="mt-4 leading-relaxed text-gray-700">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias culpa in,
-                    recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis explicabo
-                    consequuntur distinctio corporis earum similique!
+                    Yes! We have a variety of vegetarian and vegan dishes. You can ask our staff for recommendations or check the menu for specific labels.
+                </p>
+            </details>
+
+            <details class="group border-s-4 border-green-500 bg-gray-50 p-1 [&_summary::-webkit-details-marker]:hidden">
+                <summary class="flex cursor-pointer items-center justify-between gap-1.5">
+                    <h2 class="text-lg font-medium text-gray-900">
+                        Is there parking available?
+                    </h2>
+
+                    <span class="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="size-5 shrink-0 transition duration-300 group-open:-rotate-45" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </span>
+                </summary>
+
+                <p class="mt-4 leading-relaxed text-gray-700">
+                    Yes, we offer free parking for our customers. The parking lot is located right next to the restaurant.
+                </p>
+            </details>
+
+            <details class="group border-s-4 border-green-500 bg-gray-50 p-1 [&_summary::-webkit-details-marker]:hidden">
+                <summary class="flex cursor-pointer items-center justify-between gap-1.5">
+                    <h2 class="text-lg font-medium text-gray-900">
+                        Do you take reservations?
+                    </h2>
+
+                    <span class="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="size-5 shrink-0 transition duration-300 group-open:-rotate-45" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </span>
+                </summary>
+
+                <p class="mt-4 leading-relaxed text-gray-700">
+                    Yes, we accept reservations for parties of all sizes. You can book a table online through our website or by calling us directly.
+                </p>
+            </details>
+
+            <details class="group border-s-4 border-green-500 bg-gray-50 p-1 [&_summary::-webkit-details-marker]:hidden">
+                <summary class="flex cursor-pointer items-center justify-between gap-1.5">
+                    <h2 class="text-lg font-medium text-gray-900">
+                        Do you offer delivery services?
+                    </h2>
+
+                    <span class="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="size-5 shrink-0 transition duration-300 group-open:-rotate-45" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </span>
+                </summary>
+
+                <p class="mt-4 leading-relaxed text-gray-700">
+                    Yes, we partner with multiple food delivery services such as UberEats, DoorDash, and Grubhub. You can also place an order for delivery through our website.
                 </p>
             </details>
         </div>
